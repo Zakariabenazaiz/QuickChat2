@@ -2,10 +2,10 @@ import telegram
 from telegram.ext import Updater, MessageHandler, Filters
 import urllib.parse
 
-TOKEN = '6133105355:AAGgbpAkJRViH2UXHQy_ruvhOkfaVxPLTXc'
+TOKEN = '6133105355:AAFAe6GVOVJexlzv9gz7CEBHyTyEJd5g5Ec'
 
 def start(update, context):
-    welcome_message = "Welcome to the WhatsApp bot! Please enter a phone number with the international code."
+    welcome_message = "Welcome to the Quick Chat bot! Please enter a phone number with the international code."
     update.message.reply_text(welcome_message)
 
 def handle_phone_number(update, context):
